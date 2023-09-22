@@ -11,7 +11,6 @@ def interest (money):
         money_interest = ( money * 0.055 ) + money
         print (f"กู้เงินน้อยกว่า 1000 บาท คิดดอกเบี้ย ร้อยละ '5.5' บาท รวมทั้งหมดเป็น : {money_interest} บาท")
     return money_interest
-
 print ("***------------------------------------***")
 head()
 print ("***------------------------------------***")
